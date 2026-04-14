@@ -1,5 +1,5 @@
 # Base image olarak Java 17 kullanıyoruz
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk-jammy
 
 # Container içinde çalışacağımız dizin
 WORKDIR /app
