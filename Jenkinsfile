@@ -6,6 +6,8 @@ pipeline {
         IMAGE_NAME = "spring-boot-cicd-app"
         CONTAINER_NAME = "spring-boot-cicd-container"
         PORT = "8080"
+        // Jenkins'in Mac'te docker ve mvn komutlarını bulabilmesi için PATH değişkenini ayarlıyoruz.
+        PATH = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     }
 
     stages {
