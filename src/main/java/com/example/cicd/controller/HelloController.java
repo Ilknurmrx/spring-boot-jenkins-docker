@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "CI/CD Pipeline Başarıyla Çalışıyor! Son Güncelleme: Ngrok ve GitHub Webhook Eklendi.";
+        return "CI/CD Pipeline Başarıyla Çalışıyor! Son Güncelleme: Ngrok ve GitHub Webhook Eklendi. Merhaba!";
     }
 }
