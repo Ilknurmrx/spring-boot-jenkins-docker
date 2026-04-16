@@ -42,7 +42,7 @@ pipeline {
 
                 echo 'Yeni Docker container başlatılıyor...'
                 // Jenkins 8080'de çalıştığı için uygulamamızı 8081 portundan yayınlıyoruz
-                sh "docker run -d --name ${CONTAINER_NAME} -p 8081:8080 ${IMAGE_NAME}"
+                sh "docker run -d --name ${CONTAINER_NAME} -p 8082:8080 ${IMAGE_NAME}"
             }
         }
     }
